@@ -34,3 +34,49 @@ In _loginPartial.cshtml removed all text-dark class and run the project to check
 From the CSS_JS.txt added the css and js links.
 2310
 Added the code for the dropdown navbar from the slides but there was no closing div. So, i added on my own. And i commit for the first time and had a small break.
+2323
+Back from the break and started agian.
+2325
+Created all three new projects namely - PoorvaBooks.DataAccess, PoorvaBooks.Models and PoorvaBooks.Utility
+2332
+Copied the original data folder from the main project and pasted it in PoorvaBooks.DataAccess and deleted the original folder.
+2337
+Installed the following packages:
+Mircosoft.EntityFrameworkCore.Relational and Mircosoft.EntityFrameworkCore.SqlServer
+2342
+Deleted the Migration folder from the data folder in DataAccess project and also installed the Microsoft.AspNetCore.Identity.EntityFrameworkCore and all of these versions were 5.0.11.
+2345
+Modified the namespace - "PoorvaBookShop.DataAccess.Data".
+2350
+Deleted all the Class1.cs files and Build the project successfully.
+2355
+Moved the Models in PoorvaBooks.Models and deleted the main one and also added the Refernces to .DataAccess and .Models main project.
+2357
+Renamed the Models folder to ViewModels and modified the namespace - PoorvaBookShop.Models.ViewModels.
+2023-10-31
+0000
+Happy Halloween
+0001
+Tried to build project but got 3 errors in Startup.cs and 1 Error.cshtml
+0006
+Referred the slides and modified Startup.cs service and 'AddContext' with the using statement and 3 errors in Startup.cs got solved.
+0015
+Replaced the line 1 on Error.cshtml to this "PoorvaBookShop.Models.ViewModels.ErrorViewModel" and ran the project successfully.
+0018
+Created new SD.cs class and modified the class property and added reference to main project
+0020
+Also gave reference to Models and Utility project from DataAccess.
+0022
+Created the new Area Customer and changed route in startup.cs file outlined in ScaffoldingReadMe.txt
+0024
+Moved the HomeControllers.cs file to Area > Customer and deleted the Data and Model
+0025
+Added [Area("Customer")] on line 12 in HomeController.cs as per slides
+0027
+Moved Views > Home and modify the HomeController namespace and run the project but gave me different output as expected.
+0028
+Found the caused and copied _ViewImport and _ViewStart to Customer Area and modified the _ViewStart.cshtml to reflect the new path.
+0030
+Added a new Admin area in Areas and added the proper view files and delete the Data and Models folder, also deleted the Controllers folder from main project
+0035
+Done the last commit.

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-PoorvaBookShop-BDA85845-6075-44D7-9BE4-A4622A2CE564</UserSecretsId>
+    <UserSecretsId>aspnet-PoorvaBook.DataAccess-23EC1008-872A-4FAB-8CC2-4ABBFE5C80D6</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 
@@ -13,17 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PoorvaBooks.DataAccess\PoorvaBooks.DataAccess.csproj" />
-    <ProjectReference Include="..\PoorvaBooks.Models\PoorvaBooks.Models.csproj" />
-    <ProjectReference Include="..\PoorvaBooks.Utility\PoorvaBooks.Utility.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
