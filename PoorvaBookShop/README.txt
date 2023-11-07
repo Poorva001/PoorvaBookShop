@@ -102,3 +102,5 @@ Created ICategoryRepository and Class file in Repository folder
 Created ISP_Call and SP_Call.cs 
 0033
 IUnitOfWork and UnitOfWork crearted
+0034
+services.AddScoped<IUnitOfWork, UnitOfWork>(); - added in startup.cs

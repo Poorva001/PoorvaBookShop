@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PoorvaBooks.DataAccess.Respository;
+using PoorvaBooks.DataAccess.Respository.IRepository;
 using PoorvaBookShop.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -33,7 +35,8 @@ namespace PoorvaBookShop
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>()/*(options => options.SignIn.RequireConfirmedAccount = true)*/
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
