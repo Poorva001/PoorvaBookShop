@@ -108,3 +108,5 @@ services.AddScoped<IUnitOfWork, UnitOfWork>(); - added in startup.cs
 2023-11-07
 1831
 Created the dropdown menu for the Category page and checked to see if it is working correctly
+1835
+Added the javascript file in wwwroot folder.

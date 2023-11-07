@@ -19,6 +19,7 @@ namespace PoorvaBookShop.Areas.Admin.Controllers
         {
             return View();
         }
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
