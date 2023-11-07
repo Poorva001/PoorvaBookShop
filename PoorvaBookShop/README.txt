@@ -112,3 +112,5 @@ Created the dropdown menu for the Category page and checked to see if it is work
 Added the javascript file in wwwroot folder.
 1839
 Added both the parital view namely _CreateAndBackToButton and _EditAndBackToButton in Views>Shared folder of main project.
+1847
+Added the Delete function from the slides and run it successfully
