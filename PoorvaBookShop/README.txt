@@ -98,3 +98,5 @@ Added thrid migration - 20231107041732_ReAddedCategory in which everything was a
 Created Repository and IRepository in .DataAccess project 
 0024
 Created ICategoryRepository and Class file in Repository folder
+0029
+Created ISP_Call and SP_Call.cs 
