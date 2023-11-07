@@ -80,3 +80,13 @@ Found the caused and copied _ViewImport and _ViewStart to Customer Area and modi
 Added a new Admin area in Areas and added the proper view files and delete the Data and Models folder, also deleted the Controllers folder from main project
 0035
 Done the last commit.
+
+2023-11-06
+2252
+Cloned the project again and run the project to see everything is okay.
+2254
+updated the connection string to this - Server=(localdb)\\mssqllocaldb;Database=PoorvaBookShop;Trusted_Connection=True;MultipleActiveResultSets=true
+2307
+Added the first migration - 20231107040557_AddDefaultMigration
+2310
+updated database
