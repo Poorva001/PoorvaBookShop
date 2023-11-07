@@ -90,3 +90,9 @@ updated the connection string to this - Server=(localdb)\\mssqllocaldb;Database=
 Added the first migration - 20231107040557_AddDefaultMigration
 2310
 updated database
+2319
+Added second migration - 20231107041550_AddCategory
+and updated the database
+Added thrid migration - 20231107041732_ReAddedCategory in which everything was added.
+0018
+Created Repository and IRepository in .DataAccess project 
