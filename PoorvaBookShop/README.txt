@@ -96,3 +96,5 @@ and updated the database
 Added thrid migration - 20231107041732_ReAddedCategory in which everything was added.
 0018
 Created Repository and IRepository in .DataAccess project 
+0024
+Created ICategoryRepository and Class file in Repository folder
