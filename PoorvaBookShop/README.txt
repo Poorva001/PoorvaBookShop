@@ -110,3 +110,5 @@ services.AddScoped<IUnitOfWork, UnitOfWork>(); - added in startup.cs
 Created the dropdown menu for the Category page and checked to see if it is working correctly
 1835
 Added the javascript file in wwwroot folder.
+1839
+Added both the parital view namely _CreateAndBackToButton and _EditAndBackToButton in Views>Shared folder of main project.
