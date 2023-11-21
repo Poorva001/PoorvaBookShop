@@ -114,3 +114,7 @@ Added the javascript file in wwwroot folder.
 Added both the parital view namely _CreateAndBackToButton and _EditAndBackToButton in Views>Shared folder of main project.
 1847
 Added the Delete function from the slides and run it successfully
+
+2023-11-20
+2303
+Created CoverType.cs in Model's project with ID and name
