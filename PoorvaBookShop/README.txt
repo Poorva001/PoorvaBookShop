@@ -131,3 +131,5 @@ Added new Models and add reference to ApplicationDbContext and did migration - 2
 Update the product class and migration - 20231121043925_addValidationToProduct
 2346
 Added ProductRepository and IProductRepository and upated UnitOfWork and IUnitOfWork accordingly
+2356
+Created ProductController and ProductVM in Models in folder and installed package which was required
