@@ -124,3 +124,6 @@ and did the migration - 20231121041407_CoverTypeDb
 
 2327
 Added CoverType to NavBar and controller. Created Index and upsert for the CoverType
+
+2337
+Added new Models and add reference to ApplicationDbContext and did migration - 20231121043351_addProductToDb
