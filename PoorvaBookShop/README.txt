@@ -127,3 +127,5 @@ Added CoverType to NavBar and controller. Created Index and upsert for the Cover
 
 2337
 Added new Models and add reference to ApplicationDbContext and did migration - 20231121043351_addProductToDb
+2340
+Update the product class and migration - 20231121043925_addValidationToProduct
