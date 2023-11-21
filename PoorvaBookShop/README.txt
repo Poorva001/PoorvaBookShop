@@ -133,3 +133,5 @@ Update the product class and migration - 20231121043925_addValidationToProduct
 Added ProductRepository and IProductRepository and upated UnitOfWork and IUnitOfWork accordingly
 2356
 Created ProductController and ProductVM in Models in folder and installed package which was required
+0002
+Added Index view and Update link in layout file and added product.js file 
