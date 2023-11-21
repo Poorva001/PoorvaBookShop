@@ -118,3 +118,6 @@ Added the Delete function from the slides and run it successfully
 2023-11-20
 2303
 Created CoverType.cs in Model's project with ID and name
+2314
+Created CoverTypeRepository and ICoverTypeRepository and added them to UnitOfWork and IUnitOfWork
+and did the migration - 20231121041407_CoverTypeDb
