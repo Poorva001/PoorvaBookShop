@@ -121,3 +121,6 @@ Created CoverType.cs in Model's project with ID and name
 2314
 Created CoverTypeRepository and ICoverTypeRepository and added them to UnitOfWork and IUnitOfWork
 and did the migration - 20231121041407_CoverTypeDb
+
+2327
+Added CoverType to NavBar and controller. Created Index and upsert for the CoverType
