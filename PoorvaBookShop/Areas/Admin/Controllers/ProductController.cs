@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using PoorvaBooks.DataAccess.Respository.IRepository;
+using PoorvaBooks.Models;
+using PoorvaBooks.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +27,7 @@ namespace PoorvaBookShop.Areas.Admin.Controllers
             return View();
         }
 
-        /*  public IActionResult Upsert(int? id)
+         public IActionResult Upsert(int? id)
           {
               ProductVM productVM = new ProductVM()
               {
@@ -50,7 +53,7 @@ namespace PoorvaBookShop.Areas.Admin.Controllers
                   return NotFound();
               }
               return View(productVM);
-          } */
+          }
         //API calls here
         #region API CALLS
         [HttpGet]

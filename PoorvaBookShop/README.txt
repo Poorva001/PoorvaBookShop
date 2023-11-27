@@ -135,3 +135,7 @@ Added ProductRepository and IProductRepository and upated UnitOfWork and IUnitOf
 Created ProductController and ProductVM in Models in folder and installed package which was required
 0002
 Added Index view and Update link in layout file and added product.js file 
+
+2023-11-26
+2212
+Created product upsert view and generated code from the tiny.com
