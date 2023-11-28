@@ -139,3 +139,7 @@ Added Index view and Update link in layout file and added product.js file
 2023-11-26
 2212
 Created product upsert view and generated code from the tiny.com
+
+2023-11-27
+2028
+Getting aa bug in clicking the Product and tried to resolve it and ran successfully
