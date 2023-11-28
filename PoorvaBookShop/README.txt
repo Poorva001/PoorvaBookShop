@@ -141,7 +141,9 @@ Added Index view and Update link in layout file and added product.js file
 Created product upsert view and generated code from the tiny.com
 
 2023-11-27
-2028
+2228
 Getting aa bug in clicking the Product and tried to resolve it and ran successfully
-2042
+2242
 Added the IUnitOfWork to HomeController and Updated the upsert method in ProductController 
+2257
+Updated the index.cshtml for the front view and added the images, modified the startup.cs
